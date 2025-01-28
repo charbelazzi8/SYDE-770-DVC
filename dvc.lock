@@ -5,9 +5,9 @@ stages:
     deps:
     - path: images
       hash: md5
-      md5: d51fd7cd78f1f54f61cf3a3b8414dfb8.dir
-      size: 11854
-      nfiles: 4
+      md5: 253454be5e5baef4946e431b6b23b13e.dir
+      size: 13507
+      nfiles: 5
     - path: labels
       hash: md5
       md5: 93dfefd364d87b2fc782649964b4596b.dir
