@@ -1,0 +1,9 @@
+stages:
+  train_yolo:
+    cmd: python train.py
+    deps:
+    - images
+    - labels
+    - train.py
+    outs:
+    - model.pth
