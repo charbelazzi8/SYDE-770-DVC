@@ -1,0 +1,4 @@
+[core]
+    remote = gdrive_local
+['remote "gdrive_local"']
+    url = G:\My Drive\DVC_REMOTE_yolo_demo
