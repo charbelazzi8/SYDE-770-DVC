@@ -1,0 +1,24 @@
+schema: '2.0'
+stages:
+  train_yolo:
+    cmd: python train.py
+    deps:
+    - path: images
+      hash: md5
+      md5: d3762755e2ad905623a3782b7813de2e.dir
+      size: 11935
+      nfiles: 4
+    - path: labels
+      hash: md5
+      md5: 2771eb86e9ccd34362afecc287b3c435.dir
+      size: 76
+      nfiles: 4
+    - path: train.py
+      hash: md5
+      md5: 46a3749a11d4e8c0a29df7837e71faf8
+      size: 465
+    outs:
+    - path: model.pth
+      hash: md5
+      md5: c515cb3a7b87d6bd0f434d39278a2bda
+      size: 11
